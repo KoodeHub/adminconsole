@@ -1,0 +1,181 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(236, 236, 236,0.185);
+}
+/* Header section styling starts here*/
+header {
+    display: absolute;
+    position: sticky;
+    top: 0rem;
+    height: 7rem;
+    background-color: rgb(182, 212, 73);
+    z-index: 10000;
+}
+header h1 {
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    position: sticky;
+    z-index: 10000;
+    color: white;
+}
+header nav{
+    margin-left: 20rem;
+    width: 50%;
+    position: sticky;
+    z-index: 10;
+    text-align: center;
+    
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-bottom: 0rem;
+    padding: 10px 10px;
+}
+a {
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+}
+a:hover {
+    color: beige;
+}
+h2{
+    color:rgb(172, 172, 168);
+    text-align: center;
+}
+/*form styling starts here*/
+label {
+    text-align: left;
+    margin-right: 0.1rem;
+    position: relative;
+    color: rgb(172, 172, 168);
+    margin-top: 1rem;
+    margin-left: 15rem;
+    display: inline-block;
+    width: 7rem;
+}
+.inputfield {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.button {
+    background-color: lightgray;
+    color: white;
+    background-color: rgb(182, 212, 73);
+    border: 0.5px solid lightgray;
+    margin-left: 1rem;
+    font-size: .80rem;
+}
+
+/*Main section styling starts here*/
+main {
+    display: relative;
+    top: 5rem;
+    height: 90rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: rgba(236, 236, 236,0.185);
+}
+
+#para {
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border: 1px solid lightgrey;
+    color: black;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem; 
+    box-shadow: 2px 2px lightgrey;
+}
+#image {
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#report {
+ position: relative;
+ height: 4rem;
+ width: 4rem;
+ top: 4rem;
+ left: 2rem;
+ color: rgb(172, 172, 168);
+ }
+
+ .tweets {
+     height: 3.4rem;
+     width: 30rem;
+     position: relative;
+     left: 15rem;
+     margin-top: -50px;
+     border: 1px solid lightgrey;
+     box-shadow: 2px 2px lightgrey;
+     border-radius: 0 0 2 2px;
+     font-size: 0.7rem;
+     margin-bottom: 3.8rem;
+     color: rgb(172, 172, 168);
+     display: inline-block;
+     font-size: 0.7rem;
+ }
+ #profile {
+    height:2rem;
+    width: 2rem;
+}
+/* Table styling */
+table {
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border-radius: 2px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+table thead th {
+    color: white;
+    background-color: rgb(182, 212, 73);
+}
+td,th {
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding: 0.5rem 0.5rem;
+    color: grey;
+}
+tr:nth-child(odd){
+    background-color: rgb(238, 236, 236);
+}
+
+/*Footer section styling starts here*/
+
+footer {
+    position: fixed;
+    display: absolute;
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(182, 212, 73);
+    bottom: 0;
+}
+#footertext {
+    font-size: 1rem;
+    width: 100%;
+    height: .75rem;
+    margin-bottom: 0rem;
+    right: 1rem;
+    position: fixed;
+    text-align: right;
+    color: white;
+}
