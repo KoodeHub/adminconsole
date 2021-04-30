@@ -39,3 +39,7 @@
     . Login to developer portal using OpenweatherMap.org
     . register and use the free API.
     . API-key would be sent to your email.
+    
+### Home page
+![Screen Shot 2021-04-30 at 11 33 03 AM](https://user-images.githubusercontent.com/71738571/116718630-2aa52d00-a9a8-11eb-9b1e-e0a771d07772.png)
+
